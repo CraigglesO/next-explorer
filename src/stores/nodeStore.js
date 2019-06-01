@@ -49,6 +49,3 @@ class NodeStore {
 }
 
 export default NodeStore
-
-
-// curl -s 'https://studio.nearprotocol.com/devnet/block'
