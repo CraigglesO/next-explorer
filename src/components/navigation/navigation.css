@@ -1,0 +1,138 @@
+.navigation {
+  height: 72px;
+  max-height: 72px;
+  width: 100vw;
+  background-color: #24272A;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+}
+
+/** Left **/
+
+#navi-left-container {
+  display: flex;
+  padding-left: 12.5px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+#navi-left-container a {
+  display: flex;
+  align-items: center;
+}
+
+#navi-explorer-logo {
+  padding-right: 14px;
+  max-height: 44px;
+}
+
+.navi-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  color: #fff;
+  transition: color 300ms ease-in-out;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.navi-link:hover {
+  color: #8FD6BD;
+}
+#navi-link-github .navi-link:hover {
+  color: #999999;
+}
+#navi-link-help .navi-link:hover {
+  color: #FF585D;
+}
+
+.navi-link-text {
+  font-family: "BwSeidoRound-Medium";
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-left: 13px;
+}
+
+
+/** Right **/
+
+#navi-right-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+#navi-right-container a {
+  display: flex;
+  align-items: center;
+}
+
+#navi-divider {
+  border-right: solid 1px #979797;
+  height: 40px;
+}
+
+@media screen and (max-width: 1300px) {
+  #navi-link-github {
+    display: none;
+  }
+
+  #navi-link-help {
+    display: none;
+  }
+
+  #navi-divider {
+    display: none;
+  }
+
+  #navi-right-container {
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  #navi-link-nodes {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  #navi-link-blocks {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 885px) {
+  #navi-link-transactions {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #navi-link-contracts {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .navigation {
+    height: auto;
+    padding-top: 39px;
+    padding-bottom: 17px;
+  }
+
+  #navi-explorer-logo {
+    padding-left: 20px;
+  }
+
+  #navi-right-container {
+    display: flex;
+    flex-grow: 1;
+    padding-left: 20px;
+    padding-right: 35px;
+  }
+}
