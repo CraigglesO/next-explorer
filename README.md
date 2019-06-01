@@ -1,4 +1,4 @@
-# Next Explorer
+# Next Explorer [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## How to
 
@@ -25,3 +25,13 @@ npm build
 # yarn
 yarn build
 ```
+
+
+## Design
+
+* React - UI Library
+* MobX - State Manager
+* Flow - Static Type Checker
+* Standard - Style Guide
+
+## Images
