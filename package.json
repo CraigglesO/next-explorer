@@ -155,7 +155,6 @@
     "@babel/plugin-proposal-decorators": "^7.4.4",
     "@babel/plugin-proposal-optional-chaining": "^7.2.0",
     "@babel/plugin-transform-react-jsx": "^7.3.0",
-    "@babel/plugin-transform-react-jsx-self": "^7.2.0",
     "@babel/plugin-transform-react-jsx-source": "^7.2.0"
   }
 }
